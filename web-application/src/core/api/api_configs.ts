@@ -1,4 +1,4 @@
-const API_BASE_URL = "http://localhost:8055/api";
+const API_BASE_URL = "https://employee-attendance-vqj7.vercel.app/api";
 
 export async function apiFetch(path: string, options: RequestInit = {}) {
     const token = localStorage.getItem("accessToken");
