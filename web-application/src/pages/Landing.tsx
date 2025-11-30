@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 import {
     ArrowRight,
     CheckCircle2,
@@ -7,19 +7,8 @@ import {
     Clock,
     Share2,
     Zap,
-    User,
-    BarChart3,
     Phone
 } from 'lucide-react';
-
-// --- Types ---
-interface PricingCardProps {
-    title: string;
-    price: string;
-    oldPrice: string;
-    features: string[];
-    isPopular?: boolean;
-}
 
 // --- Components ---
 
@@ -388,4 +377,5 @@ export default function LandingPage() {
             <Footer />
         </div>
     );
+
 }
